@@ -1,0 +1,23 @@
+/*Nav Bar Changes*/
+.btn-default {
+}
+.headername {
+	background-color: ;
+	margin-left: 3%;
+}
+#aboutme {
+	width: 40%;
+	margin-left: 10%;
+}
+.list-group-item {
+	width: 65%;
+	margin-left: 15%;
+}
+.navbar-fixed-bottom {
+	background-color: #556B2F;
+	text-align: center;
+}
+h1, h2 {
+	font-family: 'Coming Soon', cursive;
+	color: #8FBC8F;
+}
