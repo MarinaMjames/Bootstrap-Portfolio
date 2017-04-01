@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact Me</title>
+	<title>Marina James</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon|Dosis|Poiret+One" rel="stylesheet">
+	<!--FontAwesome Icons-->
+		<script src="https://use.fontawesome.com/9639f71805.js"></script>
+	<!--Bootstrap link-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--Reset css sheet-->
 		<link rel="stylesheet" href="assets/css/reset.css">
+	<!--Custom css sheet-->
 		<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <!--Start of the content on page--> 
 <body>
 <!--Navigation Bar--> 
-	<button type="button" class="btn btn-default pull-right" href="contact.html">Contact</button>
-	<button type="button" class="btn btn-default pull-right" href="portfolio.html">Portfolio</button>
-	<button type="button" class="btn btn-default pull-right" href="index.html">About</button>
+<div class="header">
+	<div class="name"><h1>Marina James</h1></div>
+<div class="tabs">
+	<button type="button" class="btn btn-default pull-right"><a href="contact.html">Contact</button></a>
+	<button type="button" class="btn btn-default pull-right"><a href="portfolio.html">Portfolio</button></a>
+	<button type="button" class="btn btn-default pull-right"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></button></a>
+</div>
+</div>
+<br><br>
+<!--Social Media-->
+	<div class="contact pull-right">
+		<div><h2>Connect with Me</h2></div>
+		<a href="https://github.com/MarinaMjames" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24568209/12d5689a-162f-11e7-9ccf-f65204cc2364.png" class="icon"></a>
+		<a href="https://www.facebook.com/marina.m.james" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24568278/65fdebe6-162f-11e7-8166-247f136083bc.png" class="icon"></a>
+		<a href="https://www.linkedin.com/in/marinamjames/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24567808/402f8110-162d-11e7-80a6-136f55671bd5.png" class="icon"></a>
+		<a href="http://stackoverflow.com/users/7764662/marinamjames" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24568218/1fdfa0d2-162f-11e7-95e6-ef1064f5fb94.png" class="icon"></a>
+		<a href="mailto:marinajames93@gmail.com" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24568380/ca82c168-162f-11e7-83f4-4eba11b94fbc.png" class="icon"></a>
+		<a href="https://www.pinterest.com/jamesmaa/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24568407/e992939e-162f-11e7-9653-acc8d59f64c1.png" class="icon"></a>
+	</div>
+<!--Contact Form-->
+<form class="form-horizontal pull-left" method="post" action="mailto:marinajames93@gmail.com" enctype="text/plain">
+<!--First Name in Form-->
+<div class="lineunderheader"><h2>Contact Form</h2></div><br><br>
+ <div class="form-group pull-left">
+    <label for="firstname" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-10">
+      <input type="fname" class="form-control" id="firstname" placeholder="First Name">
+    </div>
+  </div>
+  <br><br><br><br>
+<!--Last Name in Form-->
+  <div class="form-group pull-left">
+    <label for="lastname" class="col-sm-2 control-label">Last Name</label>
+    <div class="col-sm-10">
+      <input type="lname" class="form-control" id="lastname" placeholder="Last Name">
+    </div>
+  </div>
+  <br><br><br><br>
+<!--Email in Form-->
+  <div class="form-group pull-left">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <br><br><br><br>
+<!--Message in Form-->
+  <div class="form-group pull-left">
+    <label for="message" class="col-sm-2 control-label">Message</label>
+    <div class="col-sm-10">
+      <input type="message" class="form-control" id="message" placeholder="Message">
+    </div>
+  </div><br><br><br><br>
+  <!--Submit Button-->
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+<!--Footer-->
 
 </body>
 </html>

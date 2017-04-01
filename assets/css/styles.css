@@ -1,23 +1,97 @@
 /*Nav Bar Changes*/
+body {
+	background-image: url(https://cloud.githubusercontent.com/assets/26077051/24573026/4fcbfbd4-164c-11e7-93ba-6073871de87f.jpg);
+}
+
 .btn-default {
+	background-color: #85adad;
 }
-.headername {
-	background-color: ;
-	margin-left: 3%;
+.header {
+	font-family: 'Coming Soon', cursive;
+	color: #c2d6d6;
+	font-size: 40px;
+	border-color: #85adad;
+	border-bottom-style: solid;
+	border-width: 4px;
+	background-color: #003366;
+	width: 100%;
+	overflow: hidden;
 }
-#aboutme {
-	width: 40%;
+.name {
+	height: 30px;
+    width: 20%;
+    margin-left: 70px;
+    padding-top: 10px;
+    text-align: center;
+}
+.tabs {
+	position: relative;
+	font-size: 15px;
+	width: 100%;
+	display: inline;
+	padding: 14px 16px;
+}
+.lineunderheader {
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #003366;
+	margin-right: 10%;
 	margin-left: 10%;
 }
-.list-group-item {
-	width: 65%;
-	margin-left: 15%;
+.aboutme {
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 4%;
+	background-color: #c2d6d6;
+	margin-bottom: 10%;
+	padding: 2%;
 }
-.navbar-fixed-bottom {
-	background-color: #556B2F;
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+}
+.list-group-item {
+	width: 70%;
+	margin-left: 5%;
+	background-color: #c2d6d6;
 	text-align: center;
 }
-h1, h2 {
+.navbar-fixed-bottom {
+	background-color: #696969;
+	text-align: center;
+	border-top: solid;
+	border-style: solid;
+	border-top-width: 5px;
+	border-color: #003366;
+}
+.contact {
+	margin-right: 5%;
+	margin-top: 4%;
+	background-color: #c2d6d6;
+	padding: 2%;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #003366;
+}
+.icon {
+	height: 50px;
+}
+.form-group {
+	width: 100%;
+}
+.form-horizontal {
+	margin: 3%;
+	margin-top: 4%;
+	margin-left: 5%;
+	background-color: #c2d6d6;
+	width: 55%;
+}
+h2 {
 	font-family: 'Coming Soon', cursive;
-	color: #8FBC8F;
+	color: #003366;
+}
+a {
+	color: #FFF5EE;
 }
