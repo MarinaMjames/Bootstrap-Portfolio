@@ -16,12 +16,12 @@ p{
 #aboutme {
 	background-color: #c2d6d6;
 	width: 650px;
-	margin-left: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 #portfolio {
 	background-color: #c2d6d6;
 	width: 650px;
+	margin-bottom: 80px;
 }
 .btn-default {
 	background-color: #85adad;
@@ -76,6 +76,7 @@ p{
 	border-style: dashed;
 	border-width: 3px;
 	border-color: #003366;
+	margin-right: 50px;
 }
 .icon {
 	height: 60px;
@@ -93,6 +94,7 @@ p{
 .form-horizontal {
 	width: 650px;
 	margin-bottom: 50px;
+	margin-left: 50px;
 }
 .portfolioimage {
 	height: 250px;
@@ -111,31 +113,25 @@ p{
 	padding-top: 10px;
 }
 .content {
-	margin-top: 30px;
-	margin-bottom: 200px;
+	margin-top: 70px;
 }
 .lineunderheader {
 	border-bottom-style: solid;
 	border-bottom-width: 60%;
 	border-color: #003366;
 }
-.container {
-	display: inline;
-	vertical-align: middle;
-	float: none;
-}
-
-@media screen and (max-width: 940px) {
-/*	body {
+@media screen and (max-width: 1500px) {
+	body {
 		background-image: url(https://cloud.githubusercontent.com/assets/26077051/24573026/4fcbfbd4-164c-11e7-93ba-6073871de87f.jpg);
 	}
-	.navbaricons {
+	#navbaricons {
 		display: none;
-	}*/
+	}
+	.
 }
 /*Tablet Media Query*/
 @media screen and (max-width: 768px) {
-/*	body {
+	body {
 		background-image: url(https://cloud.githubusercontent.com/assets/26077051/24573026/4fcbfbd4-164c-11e7-93ba-6073871de87f.jpg);
 	}
 	h1 {
@@ -152,32 +148,55 @@ p{
 		display: none;
 	}
 	.icon {
-		height: 40px;
+		height: 30px;
 		margin: 0px;
 	}
 	#portfolio {
 		width: 60%;
+		margin-left: 80px;
 	}
 	.portfolioimage {
 		height: 200px;
 		width: 150px;
+		margin-bottom: 50px;
 	}
-	.original {
+	#original {
 		display: none;
-	}*/
+	}
+	#navbaricons {
+		display: inline;
+	}
+	#aboutme {
+		margin-left: 20px;
+	}	
+	.form-horizontal {
+		width: 800px;
+		margin-bottom: 50px;
+		margin-left: 50px;
+	}
+	.form-group {
+		background-color: #c2d6d6;
+		width: 400px;
+		margin-bottom: 20px;
+	}
+	#form {
+	 	background-color: #c2d6d6;
+	 	margin-bottom: 100px;
+	 	width: 400px;
+	}
 }
 
 /*Media Query Phone*/
 @media screen and (max-width: 640px){
-/*
+
 	body {
 		background-image: url(https://cloud.githubusercontent.com/assets/26077051/24573026/4fcbfbd4-164c-11e7-93ba-6073871de87f.jpg);
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.header {
-		height: 70px;
+		height: 60px;
 	}
 	.vertical-align {
 		display: flex;
@@ -188,5 +207,41 @@ p{
 	}
 	.original {
 		display: none;
-	}*/
+	}
+	.portfolioimage {
+		height: 200px;
+		width: 150px;
+		margin-bottom: 50px;
+		margin-left: 10px;
+	}
+	.portfoliotitle {
+		margin-left: 20px;
+	}
+	.form-horizontal {
+		width: 600px;
+		margin-bottom: 50px;
+		margin-left: 50px;
+	}
+	.form-group {
+		background-color: #c2d6d6;
+		width: 300px;
+	}
+	#form {
+	 background-color: #c2d6d6;
+	 margin-bottom: 100px;
+	 width: 300px;
+	}
+	#aboutme {
+		background-color: #c2d6d6;
+		width: 500px;
+		margin-bottom: 80px;
+		margin-left: 30px;
+	}
+	.list-group-item {
+		width: 480px;
+		background-color: #c2d6d6;
+		text-align: center;
+		margin-left: 20px;
+	}
+
 }
